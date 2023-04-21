@@ -20,7 +20,7 @@ choice:
         printf("Невірний вибір, введіть ще раз.\n");
         goto choice;
     }
-
+    
 code:
 {
     int n, x, i, j, sum = 0;
