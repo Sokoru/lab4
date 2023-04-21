@@ -2,7 +2,7 @@
 #include <math.h>
 int main()
 {
-    int input;
+    char input;
 choice:
     printf("Запустити код? (y/n): ");
     scanf(" %s", &input);
@@ -23,7 +23,7 @@ choice:
 
 method:
 {
-    int input;
+    char input;
     printf("a - з параметром; b - з передумовую; c - з післяумовою. \n");
     printf("Яким методом будемо вирішувати завдання? Щоб повернутися - напишіть  r. (a/b/c/r): ");
     scanf(" %s", &input);
