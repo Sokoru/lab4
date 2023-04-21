@@ -3,7 +3,7 @@
 
 int main()
 {
-    int input;
+    char input;
 choice:
     printf("Запустити код? (y/n): ");
     scanf(" %s", &input);
